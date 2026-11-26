@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 import json
 from pathlib import Path
-from tempfile import TemporaryDirectory
+import tarfile
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 from zipfile import ZipFile, ZIP_DEFLATED
@@ -18,8 +18,12 @@ def copy_asset(item):
     for attempt in range(3):
         try:
             url = ORIGINS[source] + quote(name)
-            with urlopen(Request(url, headers={'User-Agent':'grinberg-library-migration/1.0'}), timeout=60) as response:
-                data = response.read()
+            if Path(name).suffix in {'.html', '.css', '.js', '.txt'}:
+                with tarfile.open('migration/reader-text.tar.gz', 'r:gz') as archive:
+                    data = archive.extractfile(name).read()
+            else:
+                with urlopen(Request(url, headers={'User-Agent':'grinberg-library-migration/1.0'}), timeout=90) as response:
+                    data = response.read()
             if sha256(data).hexdigest() != digest:
                 raise ValueError(f'Content hash mismatch for {name}')
             if name.endswith(('.html', '.js', '.css')):
