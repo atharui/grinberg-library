@@ -72,7 +72,8 @@ function makeIndex(select, panel) {
 
 function enhanceReader(select) {
   const reader = select.closest('main');
-  const article = reader.querySelector('.fulltext');
+  const article = reader.querySelector('article');
+  article.classList.add('fulltext');
   const tools = select.closest('.tools');
   const book = reader.dataset.book;
   const page = location.pathname.split('/').pop();
