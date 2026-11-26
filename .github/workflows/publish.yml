@@ -1,0 +1,50 @@
+name: Publish Arabic library
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions: {}
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare and verify the eight Arabic editions
+        run: python3 migration/import_reader.py
+      - name: Save the self-contained site
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public
+          if ! git diff --cached --quiet; then
+            git commit -m 'Import the Arabic reader and verified PDF editions'
+            git push origin HEAD:main
+          fi
+      - name: Publish downloadable collection
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view arabic-edition >/dev/null 2>&1; then
+            gh release create arabic-edition grinberg-arabic-books.zip --title 'الكتب العربية الثمانية' --notes 'النسخ العربية المراجعة بصيغة PDF'
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
