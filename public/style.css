@@ -20,4 +20,65 @@ body{display:flex;min-height:100vh;min-height:100svh;flex-direction:column}
 .edition-links{display:flex;flex-wrap:wrap;gap:.4rem 1rem;border-top:1px solid var(--line);margin-top:auto;width:100%}
 .item .edition-links .file{border:0;margin:0;align-self:auto}
 .library-title{margin:24px 0 16px}.library-title h1{font-size:clamp(1.5rem,3vw,2.3rem)}.library-title p,.original-name{color:var(--minor);font-size:.92rem}.library-title a{color:var(--accent);text-decoration:underline}.original-name{text-align:right}.book-slide{margin:0;min-height:390px}.book-slide .pitch h2{font-size:clamp(2rem,4vw,3.4rem);line-height:1.28;margin:10px 0}.book-slide .pitch .sp-title{margin:0 0 12px;color:#e6dbef;text-align:right;font-size:1rem}.book-slide .cover,.book-slide .cover em{background:var(--jacket)}.book-slide .cover b{font-size:clamp(1.2rem,2.3vw,1.8rem);line-height:1.4;text-shadow:0 0 6px var(--jacket);background:var(--jacket)}.book-slide .cover b,.book-slide .cover em{z-index:2}.carousel-controls{display:flex;align-items:center;justify-content:center;gap:.55rem;margin-top:10px}.carousel-controls button{font-size:.9rem}.carousel-controls span{font-variant-numeric:tabular-nums;min-width:3rem;text-align:center}.book-slide .pitch{padding:clamp(22px,4vw,52px)}
-@media(max-width:600px){.book-slide{min-height:0;grid-template-rows:145px minmax(315px,auto)}.book-slide .art{height:145px}.book-slide .cover{width:82px}.book-slide .cover b{font-size:.85rem}.book-slide .cover small,.book-slide .cover em{font-size:.53rem}.book-slide .pitch{align-self:start}.carousel-controls{gap:.35rem}.carousel-controls button{padding-inline:.65rem}}
+
+/* Keep the reader within the viewport, including when chapter titles are long. */
+.reader {
+  width: min(100%, 830px);
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .library-title { margin-block: 14px 12px; }
+  .bar { min-height: 56px; }
+  .mode, .carousel-controls button { min-height: 44px; }
+  .book-slide {
+    grid-template-columns: minmax(0, 1fr) clamp(58px, 16vw, 82px);
+    grid-template-areas: "meta art" "title art" "spanish art" "summary summary" "actions actions";
+    align-content: start;
+    gap: 4px 12px;
+    padding: 16px;
+    min-height: 0;
+    margin: 0;
+  }
+  .book-slide .pitch { display: contents; }
+  .book-slide .pitch .meta { grid-area: meta; }
+  .book-slide .pitch h2 { grid-area: title; font-size: clamp(1.4rem, 5.6vw, 2rem); margin: 0; }
+  .book-slide .pitch .sp-title { grid-area: spanish; margin: 0; font-size: .9rem; }
+  .book-slide .pitch > p:not(.sp-title) { grid-area: summary; margin-top: 6px; }
+  .book-slide .links { grid-area: actions; margin-top: 6px; gap: 4px 8px; }
+  .book-slide .links a, .item .edition-links a, .tools > a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .book-slide .links a { padding: 4px 8px; }
+  .book-slide .art {
+    grid-area: art;
+    height: auto;
+    min-height: 84px;
+    background: transparent;
+    overflow: visible;
+  }
+  .book-slide .art::before { display: none; }
+  .book-slide .cover { width: 85%; padding: 4px; }
+  .book-slide .cover b { font-size: .66rem; }
+  .book-slide .cover small, .book-slide .cover em { font-size: .36rem; }
+  .carousel-controls { flex-wrap: wrap; gap: 4px; }
+  .carousel-controls button { padding-inline: 8px; }
+  .shelf { margin-block: 22px 40px; }
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .item { gap: 4px; }
+  .item .bookname { padding-block: 6px; min-height: 44px; }
+  .item .edition-links { gap: 0 16px; }
+  .item .edition-links .file { padding-block: 4px; }
+  .tools {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) 44px 44px;
+    gap: 3px 6px;
+  }
+  .tools select { width: 100%; max-width: none; }
+  .tools button, .tools select { min-height: 44px; }
+  .tools > a { grid-column: span 2; justify-content: center; }
+  .readerTop { padding-block: 4px; }
+  .fulltext [id] { scroll-margin-top: 7rem; }
+}
