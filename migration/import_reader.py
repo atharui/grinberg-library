@@ -59,8 +59,13 @@ with ZipFile('grinberg-arabic-books.zip','w',ZIP_DEFLATED) as archive:
 # Direct PDF responses allow mobile readers and native browser range requests.
 style_version = sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:12]
 stylesheet = re.compile(r'href="style\.css(?:\?v=[0-9a-f]+)?"')
+# Pages and their controls are deployed together, including for returning readers.
+scripts = {name: sha256((ROOT / name).read_bytes()).hexdigest()[:12]
+           for name in ('reader.js', 'showcase.js', 'story.js') if (ROOT / name).is_file()}
+script_src = re.compile(r'src="(reader\.js|showcase\.js|story\.js)(?:\?v=[0-9a-f]+)?"')
 for page in ROOT.glob('*.html'):
     data = stylesheet.sub(f'href="style.css?v={style_version}"', page.read_text())
+    data = script_src.sub(lambda match: f'src="{match[1]}?v={scripts[match[1]]}"', data)
     for number in range(1,9):
         data = data.replace(f'book-{number}-pdf.html',f'book-{number}.pdf')
     if page.name in {f'book-{n}-pdf.html' for n in range(1,9)}:
@@ -69,3 +74,4 @@ for page in ROOT.glob('*.html'):
     page.write_text(data)
 (ROOT/'.nojekyll').touch()
 print('Verified all eight Arabic PDFs and prepared the site.')
+
