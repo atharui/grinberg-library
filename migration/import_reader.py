@@ -44,6 +44,9 @@ if not (ROOT / 'index.html').exists():
     with ThreadPoolExecutor(max_workers=6) as pool:
         list(pool.map(copy_asset,manifest['files'].items()))
 
+# The dated increments were made from the exact published PDFs. Apply each once.
+revision_dir = Path('migration/edition-20261126')
+edition = json.loads((revision_dir / 'books.json').read_text())
 with ZipFile('grinberg-arabic-books.zip','w',ZIP_DEFLATED) as archive:
     for name, digest in manifest['books'].items():
         number = int(name.split(' ')[0])
@@ -53,8 +56,20 @@ with ZipFile('grinberg-arabic-books.zip','w',ZIP_DEFLATED) as archive:
             pdf_path.write_bytes(b''.join(part.read_bytes() for part in parts))
             for part in parts:
                 part.unlink()
-        if sha256(pdf_path.read_bytes()).hexdigest() != digest:
-            raise ValueError(f'Final PDF hash mismatch: {name}')
+        current = sha256(pdf_path.read_bytes()).hexdigest()
+        revision = edition[str(number)]
+        if current == revision['previous']:
+            extra = (revision_dir / f'book-{number}.increment').read_bytes()
+            if sha256(extra).hexdigest() != revision['increment_sha256']:
+                raise ValueError(f'Invalid translation revision for {name}')
+            corrected = pdf_path.read_bytes() + extra
+            if sha256(corrected).hexdigest() != digest:
+                raise ValueError(f'Final PDF hash mismatch: {name}')
+            temporary = pdf_path.with_suffix('.new')
+            temporary.write_bytes(corrected)
+            temporary.replace(pdf_path)
+        elif current != digest:
+            raise ValueError(f'Unexpected PDF edition: {name}')
         archive.write(pdf_path, name)
 # Direct PDF responses allow mobile readers and native browser range requests.
 style_version = sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:12]

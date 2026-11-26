@@ -29,8 +29,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if ! gh release view arabic-edition >/dev/null 2>&1; then
-            gh release create arabic-edition grinberg-arabic-books.zip --title 'الكتب العربية الثمانية' --notes 'النسخ العربية المراجعة بصيغة PDF'
+          edition=$(sha256sum migration/edition-20261126/books.json | cut -c1-12)
+          label="الترجمة العربية المراجعة · $edition"
+          asset="grinberg-arabic-books.zip"
+          if gh release view arabic-edition >/dev/null 2>&1; then
+            published=$(gh release view arabic-edition --json assets --jq '.assets[] | select(.name == "grinberg-arabic-books.zip") | .label')
+            if [[ "$published" != "$label" ]]; then
+              gh release upload arabic-edition "$asset#$label" --clobber
+            fi
+          else
+            gh release create arabic-edition "$asset#$label" --title 'الكتب العربية الثمانية' --notes 'النسخ العربية المراجعة بصيغة PDF'
           fi
       - uses: actions/upload-pages-artifact@v3
         with:
