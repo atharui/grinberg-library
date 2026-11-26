@@ -1,0 +1,974 @@
+{
+ "files": {
+  "book-1-images/source-0.png": [
+   0,
+   "3628d762f299deb4b6fd75a31d023d9970baafcf8c1a867a3928623d82eb4cf9"
+  ],
+  "book-1-images/source-139.png": [
+   0,
+   "a59c3cb63fe85b724ca0fb125517d5fe2d618f3fa26b4749ec18f25fb9d17bfd"
+  ],
+  "book-1-images/source-14.png": [
+   0,
+   "468356142767e4ae6955c1f1d48474b6dcf3954a2c88dfb8f0f6a232f2d58f9c"
+  ],
+  "book-1-images/source-147.png": [
+   0,
+   "b6ee3aa90f17647f4c98fb46ce59907fb3deffe47f4c0e33272d84c59a059f64"
+  ],
+  "book-1-images/source-33.png": [
+   0,
+   "373ed8dbba30e9a50a28d4cebb28c00e02b7c080a2dfc51aca2480de7b84777d"
+  ],
+  "book-1-images/source-42.png": [
+   0,
+   "3f7dea28e54f9e5f53dcb9fc9647d3b028a717f9dd687529168645a284ce8b86"
+  ],
+  "book-1-images/source-43.png": [
+   0,
+   "0acd4dc271f52422dccde7fc5218956f203a02e3dbfdb8f50ea3b12379175ec7"
+  ],
+  "book-1-images/source-52.png": [
+   0,
+   "d8dacd14368c5ccca329136e9d1ef4ab07ce804797f5cf9dcb89bfa65fc6d8e1"
+  ],
+  "book-1-images/source-60.png": [
+   0,
+   "3f97ffdd49dbddcf2dfaa77c0188d652f8bad4f2297b7f43423197c63a98868f"
+  ],
+  "book-1-images/source-61.png": [
+   0,
+   "8faab60c8f3313d23f46fae101fff049722271cd2972f88237eb5c43e2fac194"
+  ],
+  "book-1-images/source-62.png": [
+   0,
+   "074ded96ae25c1e8cd0052568a97d38ad086b14b8a3681f4b5b53f2af9ed6b57"
+  ],
+  "book-1-images/source-98.png": [
+   0,
+   "e851e70d61bce90498b0d7a9e86ab3d9b97ae6256c47d92c1518d3101303fcca"
+  ],
+  "book-1-images/source-99.png": [
+   0,
+   "8778e84056acd08a944d31c16e4ce326188cc840b8a903b3f0c44d38afb0d93c"
+  ],
+  "book-1-pdf.html": [
+   0,
+   "9550d26c34d247eef65a7cb5b2e1146bb94103675ab07487228fb9e13ecfe8af"
+  ],
+  "book-1.html": [
+   0,
+   "6102cbd57e0f731b6aaaff4c02320afc92d590ca673e34c4808119f9a5c9a0a0"
+  ],
+  "book-2-images/photo1.png": [
+   0,
+   "40047df6cf4a79883d5a290267f2c8407482e2b40c47ed74d9cb3f40916be380"
+  ],
+  "book-2-images/photo110.png": [
+   0,
+   "11295168a697cc4532e366c410f93b1119e6d227edbc0a59022625b81e261558"
+  ],
+  "book-2-images/photo112.png": [
+   0,
+   "0813f4d30225ee2da9a9f2d28715e1cc7bef3fea3807c52851fbe8bb931e603f"
+  ],
+  "book-2-images/photo117.png": [
+   0,
+   "05741896274de6637773433f1aa55a4fedb63e17c0652dfe9f6ca8a923b490d7"
+  ],
+  "book-2-images/photo13.png": [
+   0,
+   "358fdfc2e1c1f34ebd4f6ab7bad97183983f866f1395317edd89fe99861c7b90"
+  ],
+  "book-2-images/photo130.png": [
+   0,
+   "2b054507704687fac86cf29728fe0486c31f53ac303ff63b2864e870bb4f05c0"
+  ],
+  "book-2-images/photo151.png": [
+   0,
+   "34b26e4a0676513247f81832a022f949c530fc548da7feb814333428a60d3b93"
+  ],
+  "book-2-images/photo165.png": [
+   0,
+   "a421fefdc84c8bb6478abaaef1f79291408d84de7ca40852eb0a490648a1f40b"
+  ],
+  "book-2-images/photo166.png": [
+   0,
+   "b9660f156f98bf06cd0ff67c95094ca53c51fc94f12e6220f8d1ff3d241e913e"
+  ],
+  "book-2-images/photo168.png": [
+   0,
+   "651606c01d40dd53ae7187082a9150310f0ba96134b66a9a7e03b2d30b9759ff"
+  ],
+  "book-2-images/photo20.png": [
+   0,
+   "da3abe590ad771a0b2fc5cf6c89a613aff87bb0b6ce8d22eb08c715db22d2f98"
+  ],
+  "book-2-images/photo205.png": [
+   0,
+   "dd382b5a01b0f8ba1a0dc4e7125cc202d4ec8ca823decd80e2220eb0d1971696"
+  ],
+  "book-2-images/photo21.png": [
+   0,
+   "f2508ed7e16d44524ef50d1070b64d3b53517097380aed83d192b0793dc12b32"
+  ],
+  "book-2-images/photo46.png": [
+   0,
+   "26fbbdcb7e60db467928499c02f06efdc10bb245554445d729b3881109674f22"
+  ],
+  "book-2-pdf.html": [
+   0,
+   "a48c80e07a8db0b502a8f94705b49d1678edcfe05ac6d7ab201ff2af11072a99"
+  ],
+  "book-2.html": [
+   0,
+   "4025a5b44f585e92f07c0d414b99d8926dbd0da0311b0c4b00b03fd768188ca9"
+  ],
+  "book-3-pdf.html": [
+   1,
+   "1945cd76b5e021a0c76bf81c36573cfaeb9e9c99424526f449564f64f33e88ff"
+  ],
+  "book-4-images/photo1.png": [
+   0,
+   "49267b78213516a85928e9387eebfa999ff239d9145841a5a00b26b602e61e55"
+  ],
+  "book-4-images/photo103.png": [
+   0,
+   "94b1beda39c7432ccf9001f4092b85338bbc482abd9eb93ee2b17e1035e69a63"
+  ],
+  "book-4-images/photo14.png": [
+   0,
+   "40aa507afe6a94958745228f539b381514eaa69c30c2b6e558744406c8ac5bb0"
+  ],
+  "book-4-images/photo141.png": [
+   0,
+   "ab16966d2b859fdc4b674c90245f1beb85ce4faefe9d6138ed08835a7f02ea3b"
+  ],
+  "book-4-images/photo143.png": [
+   0,
+   "2ee97d73f94d741151047fad1deff2caa4a37be189e1a76d94d08ab8e73b3db6"
+  ],
+  "book-4-images/photo147.png": [
+   0,
+   "91cb2a31be5a3fc10cc956287f012857f73e0f6fd190e24fdcaa4ef9265db831"
+  ],
+  "book-4-images/photo149.png": [
+   0,
+   "8d3f439f5ff94ef4cd60fcdef7125266eebb7815e5fe620a1eebd4e35de38d15"
+  ],
+  "book-4-images/photo151.png": [
+   0,
+   "483b3f9974ebc2089831f253bd06552167ada088c5fb0e124d1dadac8b6547dc"
+  ],
+  "book-4-images/photo153.png": [
+   0,
+   "ebcd1991027e9846f858ba23e6afe6bb8ec694e195ca07b3f8abc0bb02f99b98"
+  ],
+  "book-4-images/photo155.png": [
+   0,
+   "c57ed5542cd8f90d74d7aee809b5eda6b11491d133eaaab1ad270410a5ee89ac"
+  ],
+  "book-4-images/photo157.png": [
+   0,
+   "d3dbe3ac4a4920632103d39c74b6c5f056d8793d61fdb5e253c4d738aab34f70"
+  ],
+  "book-4-images/photo159.png": [
+   0,
+   "a0bdf89dad81c005c0d50fb43aa182b12db25686b0b422d6909a9a6168e42aee"
+  ],
+  "book-4-images/photo161.png": [
+   0,
+   "3643daa3ec6d3e27c29a19802a5444c88943c03c66df7b84fc663a49b4ad8309"
+  ],
+  "book-4-images/photo162.png": [
+   0,
+   "97bf06c68951a3376908ac93f65d42976a5d9653f3590fb752c88ab2493ade63"
+  ],
+  "book-4-images/photo163.png": [
+   0,
+   "3040166f3bd6d4e1326d1d7c02dfd4fbd51e92357ffc6bc52e2b676a0fdf6eb9"
+  ],
+  "book-4-images/photo164.png": [
+   0,
+   "4f4062d7904e58d7b9b990d12dd08d89050dcb9dc969e34c76f272d210412689"
+  ],
+  "book-4-images/photo165.png": [
+   0,
+   "01fee5294f54b8addf4b3d831684aabd0e5dc1d01131ea8c4c8f572deb72b7e9"
+  ],
+  "book-4-images/photo167.png": [
+   0,
+   "2a3a9e849eef94f2184472e278cd9fab749b1b1617fd4053f8cfb3c7ecd9b4e6"
+  ],
+  "book-4-images/photo173.png": [
+   0,
+   "6a134a9468a1e7acb80128f1004042f7d1a2a32c08f1da35404c25c3bb53bc73"
+  ],
+  "book-4-images/photo176.png": [
+   0,
+   "ae5b78fbe8cad1016d746d501bc176eb595e0f6a166e442527c876b3efa06631"
+  ],
+  "book-4-images/photo178.png": [
+   0,
+   "480cff02e49b42241379692e6f162995bdaa5a7fa0638a2cb0878945dd0df1a5"
+  ],
+  "book-4-images/photo179.png": [
+   0,
+   "8f47b94249a232d75fddbccdad5b4d3f2473a3cea84e22655c58d0bd59599ab2"
+  ],
+  "book-4-images/photo182.png": [
+   0,
+   "26cc91f21a9e340bd1d4ccf3c4c3b7245a9a218bb5b016afdcc962f7eff8dd2a"
+  ],
+  "book-4-images/photo183.png": [
+   0,
+   "307e6c3abe13685ff9b926d14d36b7c9409a47eb6e270720ffdb6806d9432b35"
+  ],
+  "book-4-images/photo189.png": [
+   0,
+   "fde38ca0c1384df72b41047f7c8ceccf753047874e44d5c00a615aea96f99a04"
+  ],
+  "book-4-images/photo19.png": [
+   0,
+   "d69b90ae717b02df8c5b7ce067eb1cf630ef6806c191f6edb1e3724fda36011d"
+  ],
+  "book-4-images/photo191.png": [
+   0,
+   "2a3d29ede0cc77a1e22e97719bf04c4cceebf70b60fa529ceab87d74253df749"
+  ],
+  "book-4-images/photo195.png": [
+   0,
+   "3fb22b2100d1b028ad784b73fbd23683aebe3426f50f3877b1319a595fcb56a0"
+  ],
+  "book-4-images/photo197.png": [
+   0,
+   "b450f32da070e9422a57f8100ed52eb51c6f12aceb137c2b1d3df1113e5e20ee"
+  ],
+  "book-4-images/photo202.png": [
+   0,
+   "b81a0d81d1434e5c35bb24609cab82779e7f15f928a15f4a366248b564728b95"
+  ],
+  "book-4-images/photo217.png": [
+   0,
+   "b3b86ec1fe12dcbf170ca914f192de317cff69ad1bde9e7d18e87ba09358ebda"
+  ],
+  "book-4-images/photo220.png": [
+   0,
+   "eb9be74ba4f879e5a1dff90e9514d41ccad7c8baddaad0d0be036d61558f8ac0"
+  ],
+  "book-4-images/photo222.png": [
+   0,
+   "11b35521a7d2680166a2c7cec04232d8e6e9c90342621ede4983359248971a11"
+  ],
+  "book-4-images/photo223.png": [
+   0,
+   "72ffb5712f6146b2f6c6b7285de9dac56629da71b9378e981f401353aefa1fa5"
+  ],
+  "book-4-images/photo225.png": [
+   0,
+   "886515051c6f54927c3615262de4dc70ba5cc45fb7a32697968c305f854b29a4"
+  ],
+  "book-4-images/photo233.png": [
+   0,
+   "81ff589ce46da503c5e2b3deb857d7bbac581ceefa5e1badfa52574dbecccc85"
+  ],
+  "book-4-images/photo287.png": [
+   0,
+   "0abe2d494e87d6e0d2c3d60818cbc054dbf04df69070ce01fee0c1601385d728"
+  ],
+  "book-4-images/photo29.png": [
+   0,
+   "f1cdddeefe74aa6a2ce002522101b678f2e2ff0d555c9cb025088654e90578d5"
+  ],
+  "book-4-images/photo290.png": [
+   0,
+   "bb71b44cff87dd82a488bedf246412583ce5f759a827a0ca034afa83c7a26baf"
+  ],
+  "book-4-images/photo293.png": [
+   0,
+   "a41d7ac5e32c7b3f0706042b2dd37e1a7b370da1e52cf018bdae4f5236327e43"
+  ],
+  "book-4-images/photo294.png": [
+   0,
+   "e76f7d726eb52642e64718859d725caefaf326e016ef691e68d46e97b2a920b8"
+  ],
+  "book-4-images/photo295.png": [
+   0,
+   "8f8b8363450500321434df1c126287ebaffcc6a1216d08983b89c4aa7157ecbd"
+  ],
+  "book-4-images/photo296.png": [
+   0,
+   "87622b456f84d46c6d648ab0520688b8f7eb9a470e1d053fb53940a464af50a9"
+  ],
+  "book-4-images/photo298.png": [
+   0,
+   "35dce2cd60c5a571f4a1892759ff9ec870f50df1c8ff7c0277c712fc6da4c384"
+  ],
+  "book-4-images/photo46.png": [
+   0,
+   "8efd51990666ccf737a42b0874d588094f2386e7ce2e0ee847a4f5d287cbf537"
+  ],
+  "book-4-images/photo48.png": [
+   0,
+   "37cc4e80ff6833c45459d28ec9ad407fd75ddc2466a4790274ab2ee19ffe9dfb"
+  ],
+  "book-4-images/photo51.png": [
+   0,
+   "4432de67dfa8130a40a5316f38e1a363600ffaeeb031e24be9fade5627d22034"
+  ],
+  "book-4-images/photo64.png": [
+   0,
+   "a7e8118a2ba3e53f8e68a1efb593cd669d2d9d5d5534ba158bd90247eff7cfe7"
+  ],
+  "book-4-images/photo66.png": [
+   0,
+   "cc670ddecb9439056e7649ab86ca34b635c53b3daaa92f0b8d48846cf4dade1f"
+  ],
+  "book-4-images/photo69.png": [
+   0,
+   "30fff2e41738147b9ae5f6cb3978c3aebde70db5f48c95a65d19e13efd245418"
+  ],
+  "book-4-images/photo72.png": [
+   0,
+   "4e214730672a725696d9fa44d14773a9653c142d0b2bc60a746f489611e4edd4"
+  ],
+  "book-4-images/photo74.png": [
+   0,
+   "ca8c8d9f991048ab7e71b9636af2c659cbfab74c06e603bfe5bf32a97f68d90c"
+  ],
+  "book-4-images/photo78.png": [
+   0,
+   "eefa35b0bedbbec0d667a0a747b808a54a67dc695e78b5af0bfc2aa5743eeee6"
+  ],
+  "book-4-images/photo85.png": [
+   0,
+   "08c559eb4a56fa91900a770ca5463a7ff53f693bb2bf00300ef606da0a76d691"
+  ],
+  "book-4-images/photo87.png": [
+   0,
+   "08e59b193b632b90abd9c56b2b599dc7d30a1e235493bc0b7dfa4fa0ea9c5cf3"
+  ],
+  "book-4-images/photo91.png": [
+   0,
+   "eb2b3f0bb8b72d049dcab9995bbf797e10a3a2e31ee1b80b1d9128baad36de6a"
+  ],
+  "book-4-pdf.html": [
+   1,
+   "cdf97564a3443a7f2fafcaa7d55a1605ea60bb762cd55a54edbc4faf9064738c"
+  ],
+  "book-4.html": [
+   0,
+   "4b8e41af63a237fcd890701ae8e4e6803104b58d565bdb04e2a4b66baf26d085"
+  ],
+  "book-5-images/brain_figure_1_1.png": [
+   0,
+   "44e559a309a5dc6ee10568ac73e13bda09106c8680901ec674ffe14e1e7ecb6f"
+  ],
+  "book-5-images/brain_figure_1_2.png": [
+   0,
+   "8497673aa57a0ad4607f4abebf605fd718b881372dc74e68cbd789f2940cd30d"
+  ],
+  "book-5-images/brain_figures_1_3_1_4.png": [
+   0,
+   "6bcec7182949d5b353371f9dc691ad875c6483218e1be41c132f7d7619659e7c"
+  ],
+  "book-5-images/brain_p100_1.png": [
+   0,
+   "ad47efbb59822e5c87ee5cf897a02a24e9a3af7703d7b04524b63c867e9d8ced"
+  ],
+  "book-5-images/brain_p101_1.png": [
+   0,
+   "9de47102041761460a5ea6c39abf0cded885c34a85139260ee2ffc7a46ce4a64"
+  ],
+  "book-5-images/brain_p102_1.png": [
+   0,
+   "74d8ad5e0ac6e1a3b63873cecff9ced8a84201082cdae1e49faf5a3f2d54235a"
+  ],
+  "book-5-images/brain_p103_1.png": [
+   0,
+   "aa52425a157b619dd994de61c04a16497ff2f5b9eb6ae40dab98f8fbe232f9e8"
+  ],
+  "book-5-images/brain_p104_1.png": [
+   0,
+   "623d856ab21e0c5dd199a4a48647af698bba4c99568866609c8f1511331cd783"
+  ],
+  "book-5-images/brain_p105_1.png": [
+   0,
+   "090be2a13410aa43d81203537a63935bbf538a03d674cb16819ec042629f8bd9"
+  ],
+  "book-5-images/brain_p106_1.png": [
+   0,
+   "c3b41e749c4dc5415730325c55f782328f71a6ef8fd9a3efec7e7312b68b6af7"
+  ],
+  "book-5-images/brain_p23_1.png": [
+   0,
+   "47fe4f4d82d2960785f4979982222a9ed6ffe44bcf5212f00cb3aa471ed5f879"
+  ],
+  "book-5-images/brain_p24_1.png": [
+   0,
+   "aa27bc1c326bbd03a824d3ec5d21a147fd8be6c09dbe42aeca30f3c4b3bbdcdd"
+  ],
+  "book-5-images/brain_p25_1.png": [
+   0,
+   "c8e101cb8f5596478e1079502be52091fed138512692f5536a120cdc2f125a3f"
+  ],
+  "book-5-images/brain_p27_1.png": [
+   0,
+   "ade23a61e95a6fe19419fcf52f7c25dd260161ec6dc519f28450ef4bbcb0d45d"
+  ],
+  "book-5-images/brain_p29_1.png": [
+   0,
+   "8d0b567f32ea62afa731bb0e9052e41e9da88f9419ca8b5da6797156c4452b5d"
+  ],
+  "book-5-images/brain_p30_1.png": [
+   0,
+   "465c4da169923edc19d13e49f7af9066509c6001229e7670d039140b44ebbbc6"
+  ],
+  "book-5-images/brain_p31_1.png": [
+   0,
+   "8c323cef384b1c176c4dbe51bee33995d15ee611b43934334e9465aae931a722"
+  ],
+  "book-5-images/brain_p32_1.png": [
+   0,
+   "b211ef80c3ff7c256cf0088c44cc14f12deb640b91e4e01990682f198c99d77c"
+  ],
+  "book-5-images/brain_p33_1.png": [
+   0,
+   "27dc8522aa9d296ce0d9658aee2355a2030ca33a5874bcb1f310c9553ffa7c99"
+  ],
+  "book-5-images/brain_p34_1.png": [
+   0,
+   "c3a5e5e9f02e00c43f22e8994e5445af1c07209e8b81d62f4acc48a00a5e5ca4"
+  ],
+  "book-5-images/brain_p39_1.png": [
+   0,
+   "baa1adb9276ec9c8061e9106f2e7810694838081af647d2e88599f9afe0caf36"
+  ],
+  "book-5-images/brain_p40_1.png": [
+   0,
+   "c94cc692aeccef44c1d4aea4e2193afccf4725405d9311e31b98d50a7df4a3dc"
+  ],
+  "book-5-images/brain_p41_1.png": [
+   0,
+   "31781951012a6576659b184f6cbb85a234499d276b5d22ca25e4c0446848900b"
+  ],
+  "book-5-images/brain_p42_1.png": [
+   0,
+   "69125993c4e3bd344d0968996a3f96c1dda6229401797de5d3b4d5e47f5e9acc"
+  ],
+  "book-5-images/brain_p43_1.png": [
+   0,
+   "a8c5cf3aea3622abcdaef276497a3382c0d627434c67214c049ff0ea0907cd18"
+  ],
+  "book-5-images/brain_p44_1.png": [
+   0,
+   "70feda3a4c73885f5ea1707bf186eac005e12ffaad726d8407c4f967dd239bf4"
+  ],
+  "book-5-images/brain_p45_1.png": [
+   0,
+   "2d6a817c45c45370bc85371e6b5551acc0b8ca34e57ea6bf0805a696ba584291"
+  ],
+  "book-5-images/brain_p48_1.png": [
+   0,
+   "a7c579dbb01e7165683bfa97d28b08813cac2b922d505844e1e7d5b65a9340cf"
+  ],
+  "book-5-images/brain_p50_1.png": [
+   0,
+   "93d96113441ff21508010c30c6807ff1547fbcfcf19ca0432ce42cc60e5c3904"
+  ],
+  "book-5-images/brain_p51_1.png": [
+   0,
+   "b509bf951fec7c3d8772c915bceff2ba197c06a6d7c381fe5b46f14176c2570e"
+  ],
+  "book-5-images/brain_p58_1.png": [
+   0,
+   "3621452fff18a4a819c607cce2e8277d4c566d0b1bcfb5b99a0e94b66441c334"
+  ],
+  "book-5-images/brain_p84_1.png": [
+   0,
+   "7594ecbe6cb62d94bf32e0d4922a1b4862cb0e8ae9489d3b04c4eb5f036fe360"
+  ],
+  "book-5-images/brain_p85_1.png": [
+   0,
+   "b944525a2a85185436b4a5bd0ad91c4cd04ef0d404a3966cf31013f43b38acdb"
+  ],
+  "book-5-images/brain_p98_1.png": [
+   0,
+   "342062e0f643d84056bd913485e703e23aa67b633e6c0417daaebd508510ffff"
+  ],
+  "book-5-images/brain_table_1.png": [
+   0,
+   "9194efd9f9b18413ac78a0ba7b5d639f916e01dd44cc4d90b507821c963163e5"
+  ],
+  "book-5-pdf.html": [
+   0,
+   "1df415d04530b4ca011bfe014c7139214733c923e53e88fa9b3f234068d79b3c"
+  ],
+  "book-5.html": [
+   0,
+   "b4623abc0a5086741d2dd2f44db37af3a45112089e566f3dcd249589be550875"
+  ],
+  "book-6-images/photo1.png": [
+   0,
+   "a6f3cf1d07cc376c1807393aa0d664cfcf28032fc24f20f9a23eea6b1eda85ac"
+  ],
+  "book-6-pdf.html": [
+   0,
+   "80fcaf310ace64a9c834739a87dc14b46805bef0bc2d82c9ffaf06844c89f606"
+  ],
+  "book-6.html": [
+   0,
+   "5d065a34388ad5b9e8778f36f13fb78609099afd177f373af23f537a764fa5cf"
+  ],
+  "book-7-images/photo1.png": [
+   0,
+   "9dacd069ffeec72b63b3e13469b9c87837a6baacb09e0451a523be2c0a50600b"
+  ],
+  "book-7-images/photo104.png": [
+   0,
+   "bdeaf204f2dd3aa9cd37d5592488540fcdfc20e5dc95eda92b72d29a604619c3"
+  ],
+  "book-7-images/photo32.png": [
+   0,
+   "770c0f12ef56e9ae5d9a9e01ed7efc22adccbb3bc1bfa5fdc7ca9b1cb65aaded"
+  ],
+  "book-7-images/photo33.png": [
+   0,
+   "8d3bb02e4de0f4cfa35eae3ea859369c2b48657d7188c9f9d130b1db0ec70b04"
+  ],
+  "book-7-images/photo40.png": [
+   0,
+   "fe379175dc00e39db97768e1594672e4564939793dac9a44e6f80a691e6895dc"
+  ],
+  "book-7-pdf.html": [
+   1,
+   "a9229b5331c89061119074261a816d7bfefd23ce6514fe7d0e4f3b4785dd127e"
+  ],
+  "book-7.html": [
+   0,
+   "a33ff0af76b234dfef1890bd3b9885f22a519d06d9a6a6b01f6905bcf48ea025"
+  ],
+  "book-8-images/syntergic_author.png": [
+   0,
+   "c20aed027c2936286856f0f403568a437c9293d33a2dd3b26e62466f93130943"
+  ],
+  "book-8-pdf.html": [
+   1,
+   "863a171425fc4b642cada6fc2a4c0aa6816f29df139eb865fbbbfc47fc66d271"
+  ],
+  "book-8.html": [
+   0,
+   "9c92886cbf3b335e2d2f6fe290806fa1045bfbecc8b52f1ad3413de4379541a8"
+  ],
+  "fonts/LICENSE.txt": [
+   0,
+   "489d5840e27818664565011625378f7667b91ba81580a19ed80856a1dea28bd1"
+  ],
+  "fonts/ReadexPro.ttf": [
+   0,
+   "268bba7e1e8f3b14d798b3fb0e40ebaa3fc39308c9ac0020e2faf6df181cc30e"
+  ],
+  "index.html": [
+   0,
+   "6047b1fb1af49b4729d39072f879b023cd17358c512e73bd113d0ebebadb837d"
+  ],
+  "original-3.html": [
+   0,
+   "6ec9578690061b870b654fc8751b8c1682b253b0e871bff7467f6658c2a825f6"
+  ],
+  "original-3.pdf": [
+   0,
+   "a40c81f1b4dc60370a1f97765015f52de3011ce086d4cc09a98952d26a87c311"
+  ],
+  "original-5.html": [
+   0,
+   "753d4b5ba0e4ad9a7b7d593620c4848dc3d70a8628ec54fc2f6e297a42d3dda6"
+  ],
+  "original-5.pdf": [
+   0,
+   "1a53a374543c37d31149fd5be40813f8987719ff350655fad41060b44fb9d0b3"
+  ],
+  "original-7.html": [
+   0,
+   "11245e1985917b979550c6ddce168ea8017067929592cff1931098759ff5d739"
+  ],
+  "original-7.pdf": [
+   0,
+   "3c77e540bef62aba00344b1988e3f549326efcf77e75b6d43bf6290f13f73f32"
+  ],
+  "original-8.html": [
+   0,
+   "8ea0fe79e94e0ada8f3b80eb1c5f4499a883e07549a2f5a9e8a7e4047b48f870"
+  ],
+  "original-8.pdf": [
+   0,
+   "ab0246082d347ea81b40c5ba8d431659caf8eb4b05526eea70a9d09eac3c507e"
+  ],
+  "pachita-0.html": [
+   0,
+   "6d109c2db02f77a483d933f98e0b648490fd755d853fc9c26059004b23d5ae53"
+  ],
+  "pachita-1.html": [
+   0,
+   "8bd8c7d9ab9f2c352c2d02b38ecf61604f7d2543687d38c17f3ba8ccea9865ee"
+  ],
+  "pachita-10.html": [
+   0,
+   "88242fc0ecc7cf4122cf7d46470001d07359608456b63bf3e202807de62d024d"
+  ],
+  "pachita-11.html": [
+   0,
+   "0fdcd16ff4611cffef49fad248d04811a20346112ec41039e1205a8076ed3163"
+  ],
+  "pachita-12.html": [
+   0,
+   "08227ff349706f524ae70f7a0a9ec859f12b1750597d2f439a1e0ef90e0aa700"
+  ],
+  "pachita-13.html": [
+   0,
+   "817a6df3b6fdd8b5e5e44c68a325fc243f77efa4f0bf4e54d5665eb32cec7777"
+  ],
+  "pachita-14.html": [
+   0,
+   "1e4bdbd5f274e9acdf792ecacd0f8c5d26cebb71738d543fd8b6b7a257f9ae3b"
+  ],
+  "pachita-15.html": [
+   0,
+   "61e5c85f7be070b2a4b34b645fb8d6f5ea4c66f32b8741046bedd94b923d7a50"
+  ],
+  "pachita-16.html": [
+   0,
+   "67ccbd6466a26d3867a818b0b043623c8f037f9ca363872a326e691719aa66df"
+  ],
+  "pachita-17.html": [
+   0,
+   "81e66e4daf0d46aafe9ae36c4d6744ef7bbe21c2fd33b9381d3341525605d8f6"
+  ],
+  "pachita-18.html": [
+   0,
+   "cdd50fe4ed19c58ac6bf2bc4dc89e7d8518be7157cdaef4f496d1140b078985e"
+  ],
+  "pachita-19.html": [
+   0,
+   "df95fd8506af4dcfec9dd8fdbda7d6d466db3ca33e0bcf0bcc9d2de19eb78cfb"
+  ],
+  "pachita-2.html": [
+   0,
+   "5b8a5bb04d7b36677801a6d7129d700e6ee1de39a391a5bb660a87e99daa73cc"
+  ],
+  "pachita-20.html": [
+   0,
+   "7f962b7b0c296e674abe20040abcadb5658998716669cacf141e157e22212745"
+  ],
+  "pachita-21.html": [
+   0,
+   "1b5160b9c0e782c920e34e1e86fc2ff6946495b46f3f7741e33d867104bcc409"
+  ],
+  "pachita-22.html": [
+   0,
+   "645c2732f407e2e7cf9d252ab5ef0d6929a8d00e1e12a9d76b5729d8ff49f992"
+  ],
+  "pachita-23.html": [
+   0,
+   "25b3fc69dd1c54bc332dcdbad8d657c3258b947a23930b23bf1f594179b9e649"
+  ],
+  "pachita-24.html": [
+   0,
+   "cd471cb9652c0039332e93e429df50d0a055980ce7970b14a6e0347d0267e3a8"
+  ],
+  "pachita-25.html": [
+   0,
+   "ad4a01df849a7770329889b3e55494506e5f4f5a2348d4e6d91897795c27400a"
+  ],
+  "pachita-26.html": [
+   0,
+   "7ecbc397e8cc9ab5faffe45714956baa606287fbe274aab6a13622def1173c12"
+  ],
+  "pachita-27.html": [
+   0,
+   "8ea26dfa37aa20687d5ee928cbc7068942dd605d12f2b7c641b9d7d52b33bd30"
+  ],
+  "pachita-28.html": [
+   0,
+   "9e4af971e459d3fc6516acdfe720b08e0b673f5e561f5710dddb1c7c4a1fa9ef"
+  ],
+  "pachita-29.html": [
+   0,
+   "cb0f5abde474f29bbae238f516b7b7c30355f63772f13a58d70251c18f1b4b1d"
+  ],
+  "pachita-3.html": [
+   0,
+   "94fc5a8d6a707cedaa875556e2eb27897dc13cae77b8793f7cd7debe30a07777"
+  ],
+  "pachita-30.html": [
+   0,
+   "6dd8b5ea4548a7f51011d4517bccb03e5f8475a18c7455c3696f128ef0625531"
+  ],
+  "pachita-31.html": [
+   0,
+   "c5365a25d510cfd4ef1debc215ec158f541bbd2b95712644d2f63447a83d6f7e"
+  ],
+  "pachita-32.html": [
+   0,
+   "bfdf0280b2fc6411a05400357681e10fc2d721ebac6e9a4383b6187890e396ba"
+  ],
+  "pachita-33.html": [
+   0,
+   "0bc04064b0c5e60d8d0d499eb37a285462966ad40cb8a44aba88f700d4a794c3"
+  ],
+  "pachita-34.html": [
+   0,
+   "09da81453470ab973a02cda71e9e38b51d1705c2f5559841596d9e55ab7c16a3"
+  ],
+  "pachita-35.html": [
+   0,
+   "4c62c06122e7624580ca00beaf482089a05d7e8840decff8b42dc1cb25ce8cfb"
+  ],
+  "pachita-4.html": [
+   0,
+   "669b3a8fb37b458b58ac6303d28cc93ebbd0ffa15b91d5ec1bc9fc3038eeecb9"
+  ],
+  "pachita-5.html": [
+   0,
+   "8b4ea32927754b7937babbfc5bf5377cdf9792cf696c3f333d596e56d9c950a8"
+  ],
+  "pachita-6.html": [
+   0,
+   "176933765dad36a2027d929307588c3a41cc99122d9aa502f483530f45dc2dc2"
+  ],
+  "pachita-7.html": [
+   0,
+   "52959382ad2ef97486c8657c9410df0930ee281fdd534f8e8d48073ef0709fd0"
+  ],
+  "pachita-8.html": [
+   0,
+   "037ef4c14bc013e6928fed594d4f41fb52bbde35fd86170c632b529595d6b904"
+  ],
+  "pachita-9.html": [
+   0,
+   "63b25d4d30328a68dfdf78e91fffe6d0b5ab7650a13eded27a5af4a2446a7e1c"
+  ],
+  "pdf-parts/book-1-0.bin": [
+   0,
+   "9efe26d54d326297875907b64b5905dfc3f9078ec1499ebc25995f03d5ce3134"
+  ],
+  "pdf-parts/book-1-1.bin": [
+   0,
+   "f7b23a50977b9906bf77a2add81ddfc691ac2e5adc4a157ad01aae9b13ebe76e"
+  ],
+  "pdf-parts/book-1-2.bin": [
+   0,
+   "cfeed33bb93086d2cbc2cd335bb40bd2f478fd2a0535dcd2a19ac9e82d5cb7ee"
+  ],
+  "pdf-parts/book-1-3.bin": [
+   0,
+   "6f3b601d2ca058b07cec2862be02f811f5b663852cf03b08a3bce5016a661450"
+  ],
+  "pdf-parts/book-1-4.bin": [
+   0,
+   "1f874ac72f97f20a69cd414cb8c043c65d727388bc942a85016d5ba80326fd2b"
+  ],
+  "pdf-parts/book-2-0.bin": [
+   0,
+   "6a0aa7d14e7447f3d4c1cc1fdf28c41fd45fc18019406ae4dbf7c1c10de03941"
+  ],
+  "pdf-parts/book-2-1.bin": [
+   0,
+   "9fa2d699d702bf3cfc19f550595efab5fb889ace9636d2664483ba1615bf3397"
+  ],
+  "pdf-parts/book-2-2.bin": [
+   0,
+   "972f6fd63f2354b1725ed8c620f29d408ac42a60c9a1eca53caba9cc8e93133c"
+  ],
+  "pdf-parts/book-2-3.bin": [
+   0,
+   "c3be40b1bd5cfd558703601e19d0ff261524f7c72566c9690c79f622a1f56c11"
+  ],
+  "pdf-parts/book-2-4.bin": [
+   0,
+   "555c55b18b9e8eb515db98a051ce8cd6f27fe52ad1a5799a2280f092b8189e9d"
+  ],
+  "pdf-parts/book-5-0.bin": [
+   0,
+   "02c20ecb0973b8030cd0a0f7a34f15a5c2b190ebd7366ee225d95332dcdb30c1"
+  ],
+  "pdf-parts/book-5-1.bin": [
+   0,
+   "848fbf6601951546fbfeebb232881c1b23a951ce373fec5cf4c35ceb1fbcd309"
+  ],
+  "pdf-parts/book-5-2.bin": [
+   0,
+   "4a5b42b9e6a05c1a0397ee280bf5ee0220ee69feae7f8a179ad260264d03cd98"
+  ],
+  "pdf-parts/book-5-3.bin": [
+   0,
+   "dc62f0aac25d7a433edd3b869579f5d0b7f74cea3ff9a7a7ca78b3c960889e3f"
+  ],
+  "pdf-parts/book-5-4.bin": [
+   0,
+   "b716bf3ccdd5fc1b60c106e6b898355631803e31908c7c15e9e726a5cfd9ecb2"
+  ],
+  "pdf-parts/book-6-0.bin": [
+   0,
+   "7a2f303c7157883014d230de65c09bec226152479bad2a6f675bfbbefa54562c"
+  ],
+  "pdf-parts/book-6-1.bin": [
+   0,
+   "c01fc66bbf21198ea472ecb573c5351cf9a35b786e26576ab49c09bddaa5bff8"
+  ],
+  "pdf-parts/book-6-2.bin": [
+   0,
+   "4ff0cb6bf7ab1e9469c6b45a5c9eb77942816792492f5a1312f9b6efa5aa11ea"
+  ],
+  "pdf-parts/book-6-3.bin": [
+   0,
+   "fc682edb427aeff15639d984c3062bec065bda8b520943b5508ea61d395cdb7b"
+  ],
+  "pdf.js": [
+   0,
+   "6d05915940101692f11a80ae7dcc654ed5d499918655f48536683458964add0c"
+  ],
+  "prefs.js": [
+   0,
+   "ec9f2a8a57419b2c65f7448ba3954a171c67c43d32d3197521612fe051dd25e6"
+  ],
+  "reader.js": [
+   0,
+   "4b14e0882adc1e7e5ce803220cafc873bccd703ada8a7bb709ad74d49654ac73"
+  ],
+  "showcase.js": [
+   0,
+   "f044c768262b03c45d1ba212e8303b238dea93a9234370b699c6fd9efde5d84b"
+  ],
+  "style.css": [
+   0,
+   "fc7a7404f90b1e53418dee0a2b89e78cc75ae604f0a744625664ff963607941a"
+  ],
+  "original-1.html": [
+   1,
+   "4e504d2bd36124f8eeaacac0e26a0f3537be90fe95052d3da0098adc72e8957d"
+  ],
+  "original-1.pdf": [
+   1,
+   "0ae4fcc271231fa37b6245b0e425d7ec16bdea67d4ce486a64bc0d0b345da27b"
+  ],
+  "original-2.html": [
+   1,
+   "7806bf1ad976d4544f0ba23cd8459ca627f4e4745cf5deafd77848e20d0d1ff2"
+  ],
+  "original-2.pdf": [
+   1,
+   "a3c0ba8f634a93781ea2414ef15ada46096505b2444b7f366460ec59397deb67"
+  ],
+  "original-4.html": [
+   1,
+   "cff0d3f5b67b4b330441641715b467c8be212e0166b46112452398591d8936ce"
+  ],
+  "original-6.html": [
+   1,
+   "4c2efc4051c679a0b8fe8b7267034f8d3e68702d5ecae2b7f0131a40c9a46911"
+  ],
+  "original-6.pdf": [
+   1,
+   "e29359f9f74ddaef57b445ea63824ded79f425297156118ff129bb6f0d3f2857"
+  ],
+  "pdf-parts/book-3-0.bin": [
+   1,
+   "dd66318a26680399efadf976d27a2ce1d4343e837dffdc9d693f04195aa0c665"
+  ],
+  "pdf-parts/book-3-1.bin": [
+   1,
+   "32d47934eb564a9f2e1423bf8e30ef73ac0dedc914edba1dda9cd90ac4d34cf7"
+  ],
+  "pdf-parts/book-3-2.bin": [
+   1,
+   "6da0812ba1a0415d4ec2a660b042bae89c76357c71f365cb24a7dea79fb2e4d4"
+  ],
+  "pdf-parts/book-3-3.bin": [
+   1,
+   "520db0bc2a830e982580e46bb8e210c579d79b967a253fe589473152e2456074"
+  ],
+  "pdf-parts/book-3-4.bin": [
+   1,
+   "d761a4fc00ec4ad605ef4a8555803be80f91facb4bdbfaf9d0961394f0306954"
+  ],
+  "pdf-parts/book-3-5.bin": [
+   1,
+   "4d31f6e77abff2feb2714a1892069986c808b117e10c2e538ab52be3a3fe1723"
+  ],
+  "pdf-parts/book-4-0.bin": [
+   1,
+   "0d1c6864e0fbd61a5b90bf319dae8de78639374be182fe5d73c5f44e2bab6070"
+  ],
+  "pdf-parts/book-4-1.bin": [
+   1,
+   "1edb61ecf7dfe4ea5057b9462d335103984545f7a03cf134eea1b0e4dd5dbaf7"
+  ],
+  "pdf-parts/book-4-2.bin": [
+   1,
+   "27843586f1893e5d4c1cbf2eb390a4245ccd80ccf953a2fd8d3c364f2a177e93"
+  ],
+  "pdf-parts/book-4-3.bin": [
+   1,
+   "3763801c9614d0d7e8860de6ef88822dc9a02ad8add572ce328f60b41de4571a"
+  ],
+  "pdf-parts/book-4-4.bin": [
+   1,
+   "35143a9d27e3a94534de504e81e415bfaf02ecd86de66f507dd4890c54c6e651"
+  ],
+  "pdf-parts/book-4-5.bin": [
+   1,
+   "7a29f74f6e28cb0c353008d1b643787350ae429e7917f4ab5e0b13663737a470"
+  ],
+  "pdf-parts/book-7-0.bin": [
+   1,
+   "2e7c8edc1292b6362ac2572f601740ebc7d63c8defbce273f95945e32f4a5822"
+  ],
+  "pdf-parts/book-7-1.bin": [
+   1,
+   "b39359f025937fff7e6205e600fb4a81cbd7576862f403a59e6a51d4f32ab3bd"
+  ],
+  "pdf-parts/book-7-2.bin": [
+   1,
+   "f748d1fd24ecb7163e115d6b5a5a788485c6556a9feaf8c9ac1143fa1c45e5e5"
+  ],
+  "pdf-parts/book-8-0.bin": [
+   1,
+   "5a4bdfad843f44a5d590554563f15988840404acddbed035ca3c1230153842c0"
+  ],
+  "pdf-parts/book-8-1.bin": [
+   1,
+   "c985996a4039813d35439e7889d601d6518072e47b2ec977abe0b29c25e0bde2"
+  ],
+  "pdf-parts/book-8-2.bin": [
+   1,
+   "e2aee0c13e85d3539aae57b21b7407709b630559067c8996b37375aefec24812"
+  ],
+  "pdf-parts/original-4-0.bin": [
+   1,
+   "9bf8a65f7cdb35ba62e486b16ebaf90e04db1ca27ddba4d13234e08aba5c0e05"
+  ],
+  "pdf-parts/original-4-1.bin": [
+   1,
+   "22f2b09a2c0f4a0e4ddeb695e86bba413810edf6b3b67189e7de6d4b8f626560"
+  ],
+  "pdf-parts/original-4-2.bin": [
+   1,
+   "033ab4997b884b6b13e5ded69f50b45e879d2140c200c3190f9fdf4899620b9a"
+  ],
+  "pdf-parts/original-4-3.bin": [
+   1,
+   "430212449f1105790e4ac871010d236bed7b8db91250a04d88ab4e1ca2472873"
+  ]
+ },
+ "books": {
+  "01 - علم النفس المكسيكي الأصيل.pdf": "e6dd26dea78bae28e5c3672ecc3c16dc4fa7ef33724ac19c8a864542827ab8f3",
+  "02 - التصوف لدى السكان الأصليين.pdf": "7a132f7d4420f371a16d8f93da89dcf8719417413d6fd5cba23a1fe1a8ce2ab5",
+  "03 - باتشيتا.pdf": "661bb6df8494cfd41a86032fd150842bff4111b27003add9171e33c294dbf97c",
+  "04 - رؤية الشامانات للعالم.pdf": "e6de88cd1b0bf4e2205bbcba4203e48e146fd94efccc1501fcb4b4288449168b",
+  "05 - الدماغ والشامانات.pdf": "dbd3710287584ce1609d70a32acbe7c05ac65c362e35584c3c553966b7ce35fa",
+  "06 - صوت الرؤية.pdf": "5845e465b741c10abbf2262e3b609b4cffce81133e2abe9d4ba7727999965191",
+  "07 - القرين.pdf": "7b905ac07470cab6a7a5610cf8aa6955558e28bacd9635de02f1a939c3f30a1d",
+  "08 - النظرية السينترجية.pdf": "769bc3b8ac4502a2ebad185c76105163bd21f251e6fa07674806ea56ff194f25"
+ }
+}
