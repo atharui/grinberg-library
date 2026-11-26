@@ -2,6 +2,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from hashlib import sha256
 import json
+import re
 from pathlib import Path
 import tarfile
 from urllib.parse import quote
@@ -56,8 +57,10 @@ with ZipFile('grinberg-arabic-books.zip','w',ZIP_DEFLATED) as archive:
             raise ValueError(f'Final PDF hash mismatch: {name}')
         archive.write(pdf_path, name)
 # Direct PDF responses allow mobile readers and native browser range requests.
+style_version = sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:12]
+stylesheet = re.compile(r'href="style\.css(?:\?v=[0-9a-f]+)?"')
 for page in ROOT.glob('*.html'):
-    data = page.read_text()
+    data = stylesheet.sub(f'href="style.css?v={style_version}"', page.read_text())
     for number in range(1,9):
         data = data.replace(f'book-{number}-pdf.html',f'book-{number}.pdf')
     if page.name in {f'book-{n}-pdf.html' for n in range(1,9)}:
